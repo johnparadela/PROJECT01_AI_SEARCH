@@ -47,7 +47,10 @@
 ---
 
 ## Section 5: Discussion
-- **Which search algorithm is best for this route finding problem?** A* was the best choice in my Los Angeles to Irvine test. It found a 49.4 mile route, matching Uniform Cost Search (UCS), while expanding 13 nodes instead of 20. A* uses both the distance traveled and an estimate of the remaining distance to guide its search.
-- **Search Efficiency (Nodes expanded/time taken comparison):** Greedy Search expanded the fewest nodes of 5, but it had a route cost of 49.53 miles. A* expanded 13 and found a 49.4 mile route. Similarly, DFS also expanded 13, but its route cost was 66.09 miles. BFS and UCS each expanded 20; their route costs were 49.53 and 49.4 miles. IDS expanded 79 nodes because it repeated the search at increasing depth limits, and also had a route cost of 49.53.
-- **Link the idea of search algorithm to today Generative AI.** Both search algorithms and generative AI evaluate possible next steps to reach a result. My application explores connected cities and uses path costs and a distance estimate to choose a route. A generative AI system may evaluate possible words, past data, or tool actions when producing an answer. The options and getting data methods may be different, but both involve choosing alternatives as the process continues.
+- **Which search algorithm is best for this route finding problem?**
+A* was the best choice in my Los Angeles to Irvine test. It found a 49.4 mile route, matching Uniform Cost Search (UCS), while expanding 13 nodes instead of 20. A* uses both the distance traveled and an estimate of the remaining distance to guide its search.
+- **Search Efficiency (Nodes expanded/time taken comparison):**
+Greedy Search expanded the fewest nodes of 5, but it had a route cost of 49.53 miles. A* expanded 13 and found a 49.4 mile route. Similarly, DFS also expanded 13, but its route cost was 66.09 miles. BFS and UCS each expanded 20; their route costs were 49.53 and 49.4 miles. IDS expanded 79 nodes because it repeated the search at increasing depth limits, and also had a route cost of 49.53.
+- **Link the idea of search algorithm to today Generative AI.**
+Both search algorithms and generative AI evaluate possible next steps to reach a result. My application explores connected cities and uses path costs and a distance estimate to choose a route. A generative AI system may evaluate possible words, past data, or tool actions when producing an answer. The options and getting data methods may be different, but both involve choosing alternatives as the process continues.
 
