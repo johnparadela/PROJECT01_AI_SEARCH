@@ -17,38 +17,37 @@
 ---
 
 ## Section 1: Selected City Region
-- **Selected Region:** [Write your selected region here (must be a USA-based region, e.g., a US state or city region)]
+- **Selected Region:** Southern California: Los Angeles and Orange County
 
 ---
 
 ## Section 2: Map Graph Configuration
-- **Total Cities Configured:** [Write total number of cities here, must be 20 or more]
-- **Total Connection Edges:** [Write total number of highway connection edges here]
-- **Graph Fully Connected:** [Write Yes or No here]
+- **Total Cities Configured:** 20
+- **Total Connection Edges:** 27
+- **Graph Fully Connected:** Yes
 
 ---
 
 ## Section 3: Local Verification & Search Algorithms
 *Check the algorithms you successfully ran and verified on your local development server by placing an `x` in the brackets (e.g., `[x]`):*
-- [ ] Breadth-First Search (BFS)
-- [ ] Depth-First Search (DFS)
-- [ ] Uniform Cost Search (UCS)
-- [ ] Iterative Deepening Search (IDS)
-- [ ] Greedy Best-First Search (Greedy)
-- [ ] A* Search (A*)
+- [x] Breadth-First Search (BFS)
+- [x] Depth-First Search (DFS)
+- [x] Uniform Cost Search (UCS)
+- [x] Iterative Deepening Search (IDS)
+- [x] Greedy Best-First Search (Greedy)
+- [x] A* Search (A*)
 
 ---
 
 ## Section 4: Deployed and Presentation Information
-- **Deployment Platform:** [Write your deployment platform here, e.g., Render]
-- **Live Deployment URL:** [Provide your live deployment site URL here]
+- **Deployment Platform:** Render
+- **Live Deployment URL:** https://project01-ai-search-qhkl.onrender.com/    
 - **Video Presentation Link:** [Provide an accessible link to your 5–7 minute video presentation]
 
 ---
 
 ## Section 5: Discussion
 - **Which search algorithm is best for this route finding problem?** 
-    [Write your answer here]
 - **Search Efficiency (Nodes expanded/time taken comparison):** [Write your answer here comparing search efficiency in terms of number of nodes visited and runtime across different algorithms]
 - **Link the idea of search algorithm to today Generative AI.** 
     [Write your answer here]
