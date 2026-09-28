@@ -1,0 +1,183 @@
+{
+  "region": "Southern California: Los Angeles and Orange counties",
+  "total_cities": 20,
+  "total_edges": 27,
+  "locations": {
+    "Los Angeles, CA": {
+      "lat": 34.0536909,
+      "lon": -118.242766
+    },
+    "Santa Monica, CA": {
+      "lat": 34.0194704,
+      "lon": -118.491227
+    },
+    "Culver City, CA": {
+      "lat": 34.0211224,
+      "lon": -118.396466
+    },
+    "Beverly Hills, CA": {
+      "lat": 34.0696501,
+      "lon": -118.3963062
+    },
+    "West Hollywood, CA": {
+      "lat": 34.0923014,
+      "lon": -118.3692894
+    },
+    "Burbank, CA": {
+      "lat": 34.1812089,
+      "lon": -118.307201
+    },
+    "Glendale, CA": {
+      "lat": 34.1469416,
+      "lon": -118.2478471
+    },
+    "Pasadena, CA": {
+      "lat": 34.1476507,
+      "lon": -118.144155
+    },
+    "Alhambra, CA": {
+      "lat": 34.093042,
+      "lon": -118.12706
+    },
+    "Monterey Park, CA": {
+      "lat": 34.051522,
+      "lon": -118.129807
+    },
+    "Long Beach, CA": {
+      "lat": 33.7690164,
+      "lon": -118.191604
+    },
+    "Torrance, CA": {
+      "lat": 33.8371392,
+      "lon": -118.3413606
+    },
+    "Carson, CA": {
+      "lat": 33.8322043,
+      "lon": -118.2517547
+    },
+    "Compton, CA": {
+      "lat": 33.894927,
+      "lon": -118.226624
+    },
+    "Inglewood, CA": {
+      "lat": 33.9562003,
+      "lon": -118.353132
+    },
+    "Anaheim, CA": {
+      "lat": 33.8347516,
+      "lon": -117.911732
+    },
+    "Fullerton, CA": {
+      "lat": 33.8708215,
+      "lon": -117.929416
+    },
+    "Santa Ana, CA": {
+      "lat": 33.7494951,
+      "lon": -117.873221
+    },
+    "Irvine, CA": {
+      "lat": 33.6856969,
+      "lon": -117.825981
+    },
+    "Huntington Beach, CA": {
+      "lat": 33.6783336,
+      "lon": -118.000016
+    }
+  },
+  "graph": {
+    "Los Angeles, CA": {
+      "West Hollywood, CA": 8.88,
+      "Inglewood, CA": 12.9,
+      "Glendale, CA": 9.61,
+      "Monterey Park, CA": 9.41,
+      "Pasadena, CA": 10.2,
+      "Compton, CA": 11.55
+    },
+    "Santa Monica, CA": {
+      "Beverly Hills, CA": 8.34,
+      "Culver City, CA": 6.89
+    },
+    "Culver City, CA": {
+      "Santa Monica, CA": 6.89,
+      "Inglewood, CA": 6.8
+    },
+    "Beverly Hills, CA": {
+      "West Hollywood, CA": 2.55,
+      "Santa Monica, CA": 8.34
+    },
+    "West Hollywood, CA": {
+      "Los Angeles, CA": 8.88,
+      "Beverly Hills, CA": 2.55
+    },
+    "Burbank, CA": {
+      "Glendale, CA": 5.64
+    },
+    "Glendale, CA": {
+      "Los Angeles, CA": 9.61,
+      "Burbank, CA": 5.64,
+      "Pasadena, CA": 6.47
+    },
+    "Pasadena, CA": {
+      "Glendale, CA": 6.47,
+      "Alhambra, CA": 4.2,
+      "Los Angeles, CA": 10.2,
+      "Fullerton, CA": 29.94
+    },
+    "Alhambra, CA": {
+      "Pasadena, CA": 4.2,
+      "Monterey Park, CA": 3.18
+    },
+    "Monterey Park, CA": {
+      "Alhambra, CA": 3.18,
+      "Los Angeles, CA": 9.41,
+      "Fullerton, CA": 21.74
+    },
+    "Long Beach, CA": {
+      "Compton, CA": 11.19,
+      "Carson, CA": 8.04,
+      "Huntington Beach, CA": 14.83,
+      "Anaheim, CA": 26.03
+    },
+    "Torrance, CA": {
+      "Carson, CA": 5.53,
+      "Inglewood, CA": 10.21
+    },
+    "Carson, CA": {
+      "Compton, CA": 5.91,
+      "Torrance, CA": 5.53,
+      "Long Beach, CA": 8.04
+    },
+    "Compton, CA": {
+      "Los Angeles, CA": 11.55,
+      "Carson, CA": 5.91,
+      "Long Beach, CA": 11.19
+    },
+    "Inglewood, CA": {
+      "Culver City, CA": 6.8,
+      "Los Angeles, CA": 12.9,
+      "Torrance, CA": 10.21
+    },
+    "Anaheim, CA": {
+      "Santa Ana, CA": 7.7,
+      "Fullerton, CA": 3.69,
+      "Long Beach, CA": 26.03
+    },
+    "Fullerton, CA": {
+      "Anaheim, CA": 3.69,
+      "Pasadena, CA": 29.94,
+      "Monterey Park, CA": 21.74
+    },
+    "Santa Ana, CA": {
+      "Irvine, CA": 6.86,
+      "Anaheim, CA": 7.7
+    },
+    "Irvine, CA": {
+      "Huntington Beach, CA": 11.96,
+      "Santa Ana, CA": 6.86
+    },
+    "Huntington Beach, CA": {
+      "Long Beach, CA": 14.83,
+      "Irvine, CA": 11.96
+    }
+  }
+}
